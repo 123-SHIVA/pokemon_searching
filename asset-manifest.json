@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/123-SHIVA/pokemon_searching.git/static/css/main.758e9538.css",
+    "main.js": "/123-SHIVA/pokemon_searching.git/static/js/main.ddb149a9.js",
+    "static/js/787.0edbcda9.chunk.js": "/123-SHIVA/pokemon_searching.git/static/js/787.0edbcda9.chunk.js",
+    "index.html": "/123-SHIVA/pokemon_searching.git/index.html",
+    "main.758e9538.css.map": "/123-SHIVA/pokemon_searching.git/static/css/main.758e9538.css.map",
+    "main.ddb149a9.js.map": "/123-SHIVA/pokemon_searching.git/static/js/main.ddb149a9.js.map",
+    "787.0edbcda9.chunk.js.map": "/123-SHIVA/pokemon_searching.git/static/js/787.0edbcda9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.758e9538.css",
+    "static/js/main.ddb149a9.js"
+  ]
+}
