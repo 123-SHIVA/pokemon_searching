@@ -1,0 +1,17 @@
+.pokemon{
+    margin-top: 20px;
+flex-basis: 30%;
+height: 200px;
+width: 300px;
+background-color: rgb(52, 59, 57);
+color :white;
+font-variant: small-caps;
+border-radius: 10px;
+   
+}
+.pokemon-image{
+    height: 150px;
+    max-height: 100%;
+}
+
+

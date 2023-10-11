@@ -3,3 +3,34 @@
     margin: 10px;
     font-weight: bold;
 }
+
+
+.pokemon_wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+.controls{
+    margin-top: 20px;
+}
+.controls>button{
+   margin:10px;
+   font-size:15px;
+   
+}
+
+@keyframes rotate360 {
+    0% {
+      transform: rotate(0deg); /* Start rotation from 0 degrees */
+    }
+    100% {
+      transform: rotate(360deg); /* Rotate 360 degrees at the end */
+    }
+  }
+  
+.loading{
+    font-size:20px ;
+    animation: rotate360 2s infinite;
+    
+}
