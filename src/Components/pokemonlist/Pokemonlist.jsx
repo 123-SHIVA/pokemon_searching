@@ -28,6 +28,7 @@ function Pokemonlist() {
 
     const pokeListResult = pokemonData.map((pokeData) => {
       const pokemon = pokeData.data;
+      console.log("----------------------------",pokemon)
 
       return {
           id: pokemon.id,
@@ -65,7 +66,7 @@ function Pokemonlist() {
         {isLoading
           ?<  AiOutlineLoading3Quarters className="loading"/>
           : pokemonlist.map((p) => {
-              return <Pokemon name={p.name} image={p.image} key={p.id} />;
+              return <Pokemon name={p.name} image={p.image} alt="image not found" key={p.id} id={p.id} />;
             })}
       </div>
       <div className="controls">
